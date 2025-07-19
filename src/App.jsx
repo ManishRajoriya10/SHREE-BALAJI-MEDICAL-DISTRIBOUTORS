@@ -4,7 +4,7 @@ import 'aos/dist/aos.css';
 import './App.css';
 import AOS from 'aos';
 
-import Navbar from "./Pages/Common/Navbar";
+import Navbar from "./Pages/common/Navbar";
 import Footer from "./pages/common/Footer";
 import Home from "./Pages/Home";
 import About from "./Pages/About";
@@ -14,7 +14,7 @@ import Medicine from "./Pages/medicines/Medicine";
 import Generic from "./Pages/medicines/Generic";
 import Ethical from "./Pages/medicines/Ethical";
 import Ayurvedic from "./Pages/medicines/Ayurvedic";
-import ProductDetails from "./pages/medicines/ProductDetails";
+import ProductDetails from "./Pages/medicines/ProductDetails";
 
 const App = () => {
   useEffect(() => {

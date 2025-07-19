@@ -4,7 +4,7 @@ import 'aos/dist/aos.css';
 import './App.css';
 import AOS from 'aos';
 
-import Navbar from "./pages/common/Navbar";
+import Navbar from "./Pages/common/Navbar";
 import Footer from "./pages/common/Footer";
 import Home from "./Pages/Home";
 import About from "./Pages/About";

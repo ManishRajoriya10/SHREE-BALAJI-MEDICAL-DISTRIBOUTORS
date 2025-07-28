@@ -26,11 +26,11 @@ const Navbar = () => {
       ],
     },
     {
-      label: "Products",
+      label: "Devices",
       subLinks: [
-        { to: "/products", label: "All Products" },
-        { to: "/products/meters", label: "Meters" },
-        { to: "/products/machines", label: "Machines" },
+        // { to: "/products", label: "All Products" },
+        { to: "/Devices/meters", label: "Meters" },
+        { to: "/Devices/machines", label: "Machines" },
       ],
     },
     { to: "/services", label: "Services" },

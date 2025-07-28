@@ -20,7 +20,7 @@ const Medicine = () => {
       data-aos-duration="800"
     >
       <div className="medicine-container">
-        <h1 className="medicines_title text-center">Our Medicines</h1>
+        <h1 className="why-choose-us-title text-center">Our Medicines</h1>
         <p className="text-center text-muted py-2">
           We offer a wide range of medicines across Generic,<br /> Ethical, and
           Ayurvedic categories. Select a company below to explore its products.

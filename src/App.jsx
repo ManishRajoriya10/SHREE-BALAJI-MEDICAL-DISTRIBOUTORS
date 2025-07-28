@@ -5,11 +5,11 @@ import "./App.css";
 import AOS from "aos";
 
 import Navbar from "./Pages/common/Navbar";
-import Footer from "./pages/common/Footer";
+import Footer from "./Pages/common/Footer"
 import Home from "./Pages/Home";
 import About from "./Pages/About";
 import Contact from "./pages/Contact";
-import Services from "./pages/Services";
+import Services from "./Pages/Services";
 import Medicine from "./Pages/medicines/Medicine";
 import Generic from "./Pages/medicines/Generic";
 import Ethical from "./Pages/medicines/Ethical";

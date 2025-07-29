@@ -1,5 +1,7 @@
 import React from "react";
 import { Container, Row, Col, Card } from "react-bootstrap";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const servicesData = [
   {
@@ -29,35 +31,35 @@ const servicesData = [
 ];
 
 const Services = () => {
+  React.useEffect(() => {
+    AOS.init({ duration: 900, once: true });
+  }, []);
+
   return (
-    <section className="py-5" style={{ backgroundColor: "#f7fafc" }}>
+    <section
+      className="py-5"
+    
+    >
       <Container>
-        <h2 className="why-choose-us-title text-center mb-5 fw-bold" style={{ color: "#2c5282", fontSize: "2.5rem" }}>
+        <h2
+          className="why-choose-us-title text-center mb-5 fw-bold"
+          style={{ color: "#2c5282", fontSize: "2.5rem" }}
+          data-aos="fade-up"
+        >
           Our Services
         </h2>
+        <p className="mb-3 text-center text-muted fs-5">Your One-Stop Solution for Medical Devices and Healthcare Services.</p>
         <Row className="g-4">
           {servicesData.map((service) => (
-            <Col md={6} lg={3} key={service.id} className="p-3">
+            <Col md={6} lg={3} key={service.id} className="p-3" data-aos="fade-up">
               <Card
-                className="text-center h-100 border-0 shadow-sm"
-                style={{
-                  transition: "transform 0.3s ease, box-shadow 0.3s ease",
-                  borderRadius: "1rem",
-                }}
-                onMouseEnter={(e) => {
-                  e.currentTarget.style.transform = "translateY(-8px)";
-                  e.currentTarget.style.boxShadow = "0 8px 20px rgba(0,0,0,0.15)";
-                }}
-                onMouseLeave={(e) => {
-                  e.currentTarget.style.transform = "translateY(0)";
-                  e.currentTarget.style.boxShadow = "0 4px 12px rgba(0,0,0,0.08)";
-                }}
+                className="text-center w-100  border-0 shadow-sm service-card"
               >
                 <div className="p-4">
                   <div
                     className="mb-3"
                     style={{
-                      fontSize: "2.5rem",
+                      fontSize: "2.8rem",
                       color: "#38a169",
                     }}
                   >

@@ -12,6 +12,9 @@ import Machines from "./Divices/Machines";
 import Services from "./Services";
 import Testimonials from "./Testimonials";
 import TeamSection from "./TeamSection";
+import FAQs from "./FAQs";
+import CounterSection from "./CounterSection";
+import FeaturedBrands from "./FeaturedBrands";
 
 const preloadImages = [
   "./assets/Images/HomeImg.avif",
@@ -45,9 +48,6 @@ const Home = () => {
               <div className="caption text-center text-white animate-caption">
                 <h1>Trusted Medical Distributors</h1>
                 <p>Serving Pharmacies & Hospitals Nationwide</p>
-                {/* <Link to="/products" className="btn btn-warning shadow-sm">
-                  Explore Products
-                </Link> */}
               </div>
             </div>
           </div>
@@ -60,9 +60,6 @@ const Home = () => {
               <div className="caption text-center text-white animate-caption">
                 <h1>One-Stop Wholesale Partner</h1>
                 <p>Generic, Ethical & Ayurvedic Medicines</p>
-                {/* <Link to="/products" className="btn btn-warning shadow-sm">
-                  View Categories
-                </Link> */}
               </div>
             </div>
           </div>
@@ -77,12 +74,6 @@ const Home = () => {
                   Advanced Medical <br /> Devices
                 </h1>
                 <p>Glucometers, Nebulizers & Diagnostic Machines</p>
-                {/* <Link
-                  to="/products/machines"
-                  className="btn btn-warning shadow-sm"
-                >
-                  Shop Devices
-                </Link> */}
               </div>
             </div>
           </div>
@@ -91,13 +82,25 @@ const Home = () => {
 
       <div>
         <About />
+           <CounterSection/>
+         <Services />
         <WhyChooseUs />
         <Medicine />
 
-         <div className=" container mt-5">
-          <h2 className="why-choose-us-title text-center mb-4">Medical Devices</h2>
-          <p className="text-center text-muted" style={{fontWeight:'500'}}>Discover a Wide Range of Smart Medical <br />Devices Designed  to Deliver Accuracy, Safety, and Trust in Every Diagnosis.</p>
-          <Tabs defaultActiveKey="meters" id="device-tabs" className="mb-4 my-5">
+        <div className=" container mt-5">
+          <h2 className="why-choose-us-title text-center mb-4">
+            Medical Devices
+          </h2>
+          <p className="text-center text-muted" style={{ fontWeight: "500" }}>
+            Discover a Wide Range of Smart Medical <br />
+            Devices Designed to Deliver Accuracy, Safety, and Trust in Every
+            Diagnosis.
+          </p>
+          <Tabs
+            defaultActiveKey="meters"
+            id="device-tabs"
+            className="mb-4 my-5"
+          >
             <Tab eventKey="meters" title="Meters">
               <Meters />
             </Tab>
@@ -107,9 +110,12 @@ const Home = () => {
           </Tabs>
         </div>
 
-        <Services/>
+       
         <Testimonials />
-        <TeamSection/>
+        <TeamSection />
+        <FAQs />
+        <FeaturedBrands/>
+     
       </div>
     </div>
   );

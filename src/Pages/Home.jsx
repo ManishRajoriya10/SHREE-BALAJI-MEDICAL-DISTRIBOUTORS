@@ -15,6 +15,11 @@ import TeamSection from "./TeamSection";
 import FAQs from "./FAQs";
 import CounterSection from "./CounterSection";
 import FeaturedBrands from "./FeaturedBrands";
+import FinalCTA from "./FinalCTA";
+import BlogPosts from "./BlogPosts";
+import CoverageMap from "./CoverageMap";
+import ContactUs from "./Contact";
+import WhatsAppFloatButton from "./WhatsAppFloatButton";
 
 const preloadImages = [
   "./assets/Images/HomeImg.avif",
@@ -115,6 +120,11 @@ const Home = () => {
         <TeamSection />
         <FAQs />
         <FeaturedBrands/>
+        <FinalCTA/>
+        <BlogPosts/>
+        <CoverageMap/>
+        <ContactUs/>
+        <WhatsAppFloatButton/>
      
       </div>
     </div>
@@ -122,3 +132,7 @@ const Home = () => {
 };
 
 export default Home;
+
+
+
+

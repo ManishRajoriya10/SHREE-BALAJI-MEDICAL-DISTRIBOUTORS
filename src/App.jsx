@@ -63,7 +63,7 @@
 
 
 
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -72,6 +72,7 @@ import "./App.css";
 // Common Components
 import Navbar from "./Pages/common/Navbar.jsx";
 import Footer from "./Pages/common/Footer.jsx";
+import Preloader from "./Preloader.jsx";  // ✅ Loader Component
 
 // Pages
 import Home from "./Pages/Home.jsx";
@@ -91,9 +92,22 @@ import Meters from "./Pages/Divices/Meters.jsx";
 import Machines from "./Pages/Divices/Machines.jsx";
 
 const App = () => {
+  const [loading, setLoading] = useState(true);
+
   useEffect(() => {
     AOS.init({ duration: 1000, once: true });
+
+    // ✅ Loader कम से कम 2 सेकंड दिखेगा
+    const timer = setTimeout(() => {
+      setLoading(false);
+    }, 3000);
+
+    return () => clearTimeout(timer);
   }, []);
+
+  if (loading) {
+    return <Preloader />;
+  }
 
   return (
     <Router>
@@ -135,4 +149,3 @@ const App = () => {
 };
 
 export default App;
-

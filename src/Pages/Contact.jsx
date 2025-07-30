@@ -14,7 +14,7 @@ const ContactUs = () => {
           </p>
 
           <div className="contact-details">
-            <p><FaPhoneAlt /> +91 9876543210</p>
+            <p><FaPhoneAlt /> +91 8209225015</p>
             <p><FaEnvelope /> support@shreebalajidistributors.com</p>
             <p><FaMapMarkerAlt /> Narayanpur, Alwar, Rajasthan</p>
           </div>
@@ -43,7 +43,7 @@ const ContactUs = () => {
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d718.0043424475965!2d76.29974302471061!3d27.507641340726593!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396d65c38676ef69%3A0x9cf5b0f8245c7746!2sShree%20Balaji%20Distributors!5e1!3m2!1sen!2sin!4v1753804588039!5m2!1sen!2sin"
             width="100%"
             height="100%"
-            style={{ border: 0 }}
+            style={{ border: 0, minHeight: "300px", borderRadius: "8px" }}
             allowFullScreen=""
             loading="lazy"
             title="Contact Map"

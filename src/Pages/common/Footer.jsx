@@ -37,10 +37,10 @@ const Footer = () => {
           <p><FaMapMarkerAlt /> Narayanpur, Alwar, Rajasthan</p>
 
           <div className="footer-social">
-            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer"><FaFacebook /></a>
-            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer"><FaInstagram /></a>
-            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>
-            <a href="https://wa.me/919876543210" target="_blank" rel="noopener noreferrer"><FaWhatsapp /></a>
+            <a href="https://facebook.com" target="_blank" rel="manishrajoriya "><FaFacebook /></a>
+            <a href="https://instagram.com" target="_blank" rel="Manish_rajoriya10"><FaInstagram /></a>
+            <a href="https://linkedin.com" target="_blank" rel="manish-rajoriya-b00641377"><FaLinkedin /></a>
+            <a href="https://wa.me/918209226015" target="_blank" rel="Manish saini"><FaWhatsapp /></a>
           </div>
         </div>
 
@@ -48,6 +48,8 @@ const Footer = () => {
 
       <div className="footer-bottom">
         <p>© {new Date().getFullYear()} Shree Balaji Distributors | All Rights Reserved.</p>
+
+        Created BY @TheTechestManish
       </div>
     </footer>
   );

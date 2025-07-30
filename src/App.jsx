@@ -90,17 +90,17 @@ import ProductDetails from "./Pages/medicines/ProductDetails.jsx";
 // Devices
 import Meters from "./Pages/Divices/Meters.jsx";
 import Machines from "./Pages/Divices/Machines.jsx";
+import WhatsAppFloatButton from "./Pages/WhatsAppFloatButton.jsx";
 
 const App = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     AOS.init({ duration: 1000, once: true });
-
-    // ✅ Loader कम से कम 2 सेकंड दिखेगा
+ 
     const timer = setTimeout(() => {
       setLoading(false);
-    }, 3000);
+    }, 1000);
 
     return () => clearTimeout(timer);
   }, []);
@@ -120,6 +120,7 @@ const App = () => {
         }}
       >
         <Navbar />
+        <WhatsAppFloatButton/>
         <main className="app-content" style={{ flex: 1 }}>
           <Routes>
             <Route path="/" element={<Home />} />

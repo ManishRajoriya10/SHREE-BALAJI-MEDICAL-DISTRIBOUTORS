@@ -19,7 +19,7 @@ import FinalCTA from "./FinalCTA";
 import BlogPosts from "./BlogPosts";
 import CoverageMap from "./CoverageMap";
 import ContactUs from "./Contact";
-import WhatsAppFloatButton from "./WhatsAppFloatButton";
+
 
 const preloadImages = [
   "./assets/Images/HomeImg.avif",
@@ -85,6 +85,7 @@ const Home = () => {
         </Carousel.Item>
       </Carousel>
 
+     
       <div>
         <About />
            <CounterSection/>
@@ -124,7 +125,7 @@ const Home = () => {
         <BlogPosts/>
         <CoverageMap/>
         <ContactUs/>
-        <WhatsAppFloatButton/>
+        
      
       </div>
     </div>

@@ -250,7 +250,7 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className="navbar w-100" data-aos="fade-down" data-aos-duration="800">
+    <nav className="navbar w-100" data-aos="fade-right" data-aos-duration="800">
       <div className="navbar-container">
         <div className="navbar-content">
           {/* Logo */}

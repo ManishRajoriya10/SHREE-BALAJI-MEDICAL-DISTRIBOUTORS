@@ -5,7 +5,7 @@ import "../App.css";
 const WhatsAppFloatButton = () => {
   return (
     <a
-      href="https://wa.me/918209226015"  // यहां अपना WhatsApp नंबर डालें (country code के साथ)
+      href="https://wa.me/919876543210"   
       className="whatsapp-float"
       target="_blank"
       rel="noopener noreferrer"

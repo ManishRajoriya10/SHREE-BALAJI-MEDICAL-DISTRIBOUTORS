@@ -40,7 +40,7 @@ const Machines = () => {
   const handleShow = () => setShowCanvas(true);
 
   return (
-    <Row>
+    <Row className="bg-light">
       {machinesData.map((machine) => (
         <Col md={6} lg={3} key={machine.id} className="p-2">
           <Card className=" device-card h-100 p-2">

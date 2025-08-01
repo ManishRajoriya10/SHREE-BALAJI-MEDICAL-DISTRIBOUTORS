@@ -37,10 +37,10 @@ const Services = () => {
 
   return (
     <section
-      className="py-5"
+      className="py-5 bg-light"
     
     >
-      <Container>
+      <Container  >
         <h2
           className="why-choose-us-title text-center mb-5 fw-bold"
           style={{ color: "#2c5282", fontSize: "2.5rem" }}

@@ -72,7 +72,7 @@ const Meters = () => {
 
   return (
     <>
-    <Container> 
+    <Container className="bg-light"> 
       <Row  >
         {metersData?.map((meter) => (
           <Col key={meter.id} xs={12} sm={6} md={4} lg={3} className="p-2" >

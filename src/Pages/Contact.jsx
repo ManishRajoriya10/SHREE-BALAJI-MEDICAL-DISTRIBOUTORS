@@ -9,13 +9,13 @@ const ContactUs = () => {
         {/* Left: Contact Info & Form */}
         <div className="contact-info">
           <h2 className="contact-title">Contact Us</h2>
-          <p className="contact-subtitle">
+          <p className="contact-subtitle text-center">
             Have questions or need help? Get in touch with us for quick support.
           </p>
 
           <div className="contact-details">
             <p><FaPhoneAlt /> +91 8209225015</p>
-            <p><FaEnvelope /> support@shreebalajidistributors.com</p>
+            <p><FaEnvelope />Support@shreebalajidistributors.com</p>
             <p><FaMapMarkerAlt /> Narayanpur, Alwar, Rajasthan</p>
           </div>
 

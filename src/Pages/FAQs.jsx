@@ -4,11 +4,9 @@ import '../App.css';
 import { FaEye } from 'react-icons/fa';
 import faqImage from '../assets/FAQ/67Z_2201.w012.n001.28C.p6.28-Photoroom.png'
 const FAQs = () => {
-  // Placeholder image; replace with your actual image path
   
-
   return (
-    <div className="faq-container py-5">
+    <div className="faq-container py-5 bg-light">
       <Container>
         <h2 className="why-choose-us-title   text-center mb-5 fw-bold">Frequently Asked Questions</h2>
         <Row className="align-items-start">

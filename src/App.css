@@ -188,6 +188,7 @@
     cursor: pointer !important;
     transition: color 0.3s ease, transform 0.3s ease !important;
     padding: 0.5rem !important;
+ 
   }
 
   .navbar-hamburger:hover {
@@ -309,11 +310,10 @@
     .navbar-content {
       justify-content: flex-start !important; /* ✅ Ensure logo stays left in mobile too */
     }
-
     .navbar-logo-img {
-      width: 80px !important;
-      height: 80px !important;
-      margin-left: 0 !important; /* ✅ Reset in mobile too */
+      width: 47px !important;
+      height: 51px !important;
+      margin-left: 0 !important;  
     }
   }
 
@@ -2489,6 +2489,7 @@ img {
   padding: 2rem !important;
   border-radius: 12px !important;
   box-shadow: 0 8px 20px rgba(0,0,0,0.1) !important;
+  width: 100% !important;
 }
 
 .contact-title {

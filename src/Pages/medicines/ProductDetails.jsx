@@ -927,7 +927,7 @@ const ProductDetails = () => {
   const handleShow = () => setShowCanvas(true);
 
   return (
-    <div className="container py-4" data-aos="fade-up">
+    <div className="container py-4 bg-light" data-aos="fade-up">
       <h2 className="mb-3 text-success text-center">
         {company} - Products ({category})
       </h2>
@@ -954,7 +954,7 @@ const ProductDetails = () => {
       </div>
 
       {/* 📋 Table */}
-      <div className="table-responsive">
+      <div className="table-responsive bg-light">
         <table className="table table-bordered align-middle text-center">
           <thead className="table-light">
             <tr>
